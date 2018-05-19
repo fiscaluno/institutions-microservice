@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: fiscaluno/institutions
+
+    database:
+        container_name: fiscaluno/institutions/database
+        image: mysql:5.7
