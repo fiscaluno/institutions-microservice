@@ -5,6 +5,6 @@ services:
         build:
             context: .
             dockerfile: Dockerfile
-        # container_name: fiscaluno_institutions
+        container_name: fiscaluno_institutions
         ports:
             - 5000:5000
