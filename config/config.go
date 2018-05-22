@@ -1,3 +1,3 @@
 package config
 
-const ENV_PORT = "PORT"
+const DEV_SERVER_PORT = "5000"

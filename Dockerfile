@@ -6,4 +6,6 @@ COPY . .
 RUN go get -d -v ./...
 RUN go install -v ./...
 
-CMD ["app"]
+WORKDIR /go/src/bin
+
+CMD ["./app"]
