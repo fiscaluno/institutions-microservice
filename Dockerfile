@@ -8,4 +8,4 @@ RUN go install -v ./...
 
 WORKDIR /go/src/bin
 
-CMD ["./app"]
+CMD ["app"]
