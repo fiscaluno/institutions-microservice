@@ -14,14 +14,17 @@ func All(w http.ResponseWriter, r *http.Request) {
 }
 
 func New(w http.ResponseWriter, r *http.Request) {
-    // _ := "teste"
-    w.Write([]byte(r.FormValue("name")))
-}
+    new_institution := map[string] interface{} {
+        "Name": r.FormValue("name"),
+        "Address": r.FormValue("address"),
+        "Cnpj": r.FormValue("cnpj"),
+    	"Email": r.FormValue("email"),
+    	"Website": r.FormValue("website"),
+    	"Phone": r.FormValue("phone"),
+    	"ImageUri": r.FormValue("image"),
+    }
+    institution := institution.Create(new_institution)
+    institution.Save()
 
-func Delete(w http.ResponseWriter, r *http.Request) {
-    // institution := "institution"
-}
-
-func Update(w http.ResponseWriter, r *http.Request) {
-    // institution := "institution"
+    w.Write([]byte("Success"))
 }
