@@ -14,5 +14,6 @@ func GetRouter() (router *mux.Router) {
 func loadRoutes(router *mux.Router) {
     routes := router.PathPrefix("/").Subrouter()
     routes.HandleFunc("/", controllers.All).Methods("GET")
+    routes.HandleFunc("/{id:[0-9]+}", controllers.ById).Methods("GET")
     routes.HandleFunc("/", controllers.New).Methods("POST")
 }

@@ -1,15 +1,23 @@
 package controllers
 
 import(
-    "encoding/json"
+    "strconv"
     "net/http"
+    "encoding/json"
     "github.com/fiscaluno/hyoga/models/institution"
+    "github.com/gorilla/mux"
 )
 
 func All(w http.ResponseWriter, r *http.Request) {
     institutions := institution.All()
 
     response, _ := json.Marshal(institutions)
+    w.Write([]byte(response))
+}
+
+func ById(w http.ResponseWriter, r *http.Request)  {
+    id, _ := strconv.Atoi(mux.Vars(r)["id"])
+    response, _ := json.Marshal(institution.Find(id))
     w.Write([]byte(response))
 }
 
