@@ -3,6 +3,12 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "jG3DOcEsXMKec2sq12ZVqEdHWnE=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "7413002f368fba928eefaf762c91a2acfeabdf68",
+			"revisionTime": "2018-05-30T10:02:58Z"
+		},
+		{
 			"checksumSHA1": "TyrXOBHvvLtawmxfdjrju452928=",
 			"path": "github.com/gorilla/mux",
 			"revision": "e0b5abaaae35242fa74372f26c24107711702a4e",
