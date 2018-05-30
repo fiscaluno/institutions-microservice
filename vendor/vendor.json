@@ -33,6 +33,12 @@
 			"revisionTime": "2018-05-12T06:29:00Z"
 		},
 		{
+			"checksumSHA1": "4eelJOSLZoDzLuaJvgilOBVNovU=",
+			"path": "github.com/jinzhu/inflection",
+			"revision": "04140366298a54a039076d798123ffa108fff46c",
+			"revisionTime": "2018-03-08T03:36:59Z"
+		},
+		{
 			"checksumSHA1": "ewGq4nGalpCQOHcmBTdAEQx1wW0=",
 			"path": "github.com/mitchellh/mapstructure",
 			"revision": "bb74f1db0675b241733089d5a1faa5dd8b0ef57b",
