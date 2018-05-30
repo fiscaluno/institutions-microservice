@@ -1,0 +1,25 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "TyrXOBHvvLtawmxfdjrju452928=",
+			"path": "github.com/gorilla/mux",
+			"revision": "e0b5abaaae35242fa74372f26c24107711702a4e",
+			"revisionTime": "2018-05-26T22:17:21Z"
+		},
+		{
+			"checksumSHA1": "nlEiwqdbwY1eclAGG1xcC+XPV9M=",
+			"path": "github.com/jinzhu/gorm",
+			"revision": "82eb9f8a5bbb5e6b929d2f0ae5b934e6a253f94e",
+			"revisionTime": "2018-05-12T06:29:00Z"
+		},
+		{
+			"checksumSHA1": "ewGq4nGalpCQOHcmBTdAEQx1wW0=",
+			"path": "github.com/mitchellh/mapstructure",
+			"revision": "bb74f1db0675b241733089d5a1faa5dd8b0ef57b",
+			"revisionTime": "2018-05-11T14:21:26Z"
+		}
+	],
+	"rootPath": "github.com/fiscaluno/hyoga"
+}
