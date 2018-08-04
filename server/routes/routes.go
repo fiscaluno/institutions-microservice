@@ -8,7 +8,7 @@ import(
 
 func GetRouter() (router *mux.Router) {
     router = mux.NewRouter()
-    router.Use(mu.AuthMiddleware)
+    // router.Use(mu.AuthMiddleware)
     loadRoutes(router)
     return
 }
