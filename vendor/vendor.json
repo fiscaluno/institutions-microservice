@@ -3,16 +3,10 @@
 	"ignore": "test",
 	"package": [
 		{
-<<<<<<< HEAD
 			"checksumSHA1": "jG3DOcEsXMKec2sq12ZVqEdHWnE=",
 			"path": "github.com/go-sql-driver/mysql",
 			"revision": "7413002f368fba928eefaf762c91a2acfeabdf68",
 			"revisionTime": "2018-05-30T10:02:58Z"
-=======
-			"checksumSHA1": "7Noy2Ny1I1Xq7BfAdrcYm5eeT0s=",
-			"path": "github.com/fiscaluno/pandorabox",
-			"revision": "0c1d34a452c0326db82fcae78973819d5ec85b70",
-			"revisionTime": "2018-05-23T01:43:29Z"
 		},
 		{
 			"checksumSHA1": "UOHFqLuIgvczH5zXx/m9w2i+U14=",
@@ -25,18 +19,12 @@
 			"path": "github.com/gorilla/handlers",
 			"revision": "13a38d26174b16d5b4bf6f1094c1389ec9879572",
 			"revisionTime": "2018-05-08T19:34:52Z"
->>>>>>> c42ff3d26dc59b82a981fd4173284a377c11c78d
 		},
 		{
 			"checksumSHA1": "TyrXOBHvvLtawmxfdjrju452928=",
 			"path": "github.com/gorilla/mux",
-<<<<<<< HEAD
 			"revision": "e0b5abaaae35242fa74372f26c24107711702a4e",
 			"revisionTime": "2018-05-26T22:17:21Z"
-=======
-			"revision": "c85619274f5d55a67491010f883a91f568b3a9b0",
-			"revisionTime": "2018-05-17T17:36:23Z"
->>>>>>> c42ff3d26dc59b82a981fd4173284a377c11c78d
 		},
 		{
 			"checksumSHA1": "nlEiwqdbwY1eclAGG1xcC+XPV9M=",
@@ -45,15 +33,12 @@
 			"revisionTime": "2018-05-12T06:29:00Z"
 		},
 		{
-<<<<<<< HEAD
 			"checksumSHA1": "eECxSkwh0WmhLwaxHfkvcLOWS08=",
 			"path": "github.com/jinzhu/gorm/dialects/mysql",
 			"revision": "82eb9f8a5bbb5e6b929d2f0ae5b934e6a253f94e",
 			"revisionTime": "2018-05-12T06:29:00Z"
 		},
 		{
-=======
->>>>>>> c42ff3d26dc59b82a981fd4173284a377c11c78d
 			"checksumSHA1": "Sf/CFFl00e8nN8DDKaT2dKLUaFI=",
 			"path": "github.com/jinzhu/gorm/dialects/postgres",
 			"revision": "82eb9f8a5bbb5e6b929d2f0ae5b934e6a253f94e",
@@ -66,8 +51,6 @@
 			"revisionTime": "2018-03-08T03:36:59Z"
 		},
 		{
-<<<<<<< HEAD
-=======
 			"checksumSHA1": "s6eyIXpJ7VAU06FM27GcEBM/5lo=",
 			"path": "github.com/lib/pq",
 			"revision": "90697d60dd844d5ef6ff15135d0203f65d2f53b8",
@@ -86,7 +69,6 @@
 			"revisionTime": "2018-05-23T17:54:26Z"
 		},
 		{
->>>>>>> c42ff3d26dc59b82a981fd4173284a377c11c78d
 			"checksumSHA1": "ewGq4nGalpCQOHcmBTdAEQx1wW0=",
 			"path": "github.com/mitchellh/mapstructure",
 			"revision": "bb74f1db0675b241733089d5a1faa5dd8b0ef57b",
