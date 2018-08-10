@@ -9,12 +9,6 @@
 			"revisionTime": "2018-05-30T10:02:58Z"
 		},
 		{
-			"checksumSHA1": "UOHFqLuIgvczH5zXx/m9w2i+U14=",
-			"path": "github.com/fiscaluno/pandorabox/mu",
-			"revision": "0c1d34a452c0326db82fcae78973819d5ec85b70",
-			"revisionTime": "2018-05-23T01:43:29Z"
-		},
-		{
 			"checksumSHA1": "bxGugQqbVWgF57aqYOQkPwEC2m8=",
 			"path": "github.com/gorilla/handlers",
 			"revision": "13a38d26174b16d5b4bf6f1094c1389ec9879572",
@@ -63,7 +57,7 @@
 			"revisionTime": "2018-05-23T17:54:26Z"
 		},
 		{
-			"checksumSHA1": "AU3fA8Sm33Vj9PBoRPSeYfxLRuE=",
+			"checksumSHA1": "ATnwV0POluBNQEMjPdylodz0oK0=",
 			"path": "github.com/lib/pq/oid",
 			"revision": "90697d60dd844d5ef6ff15135d0203f65d2f53b8",
 			"revisionTime": "2018-05-23T17:54:26Z"
