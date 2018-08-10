@@ -2,7 +2,8 @@ package config
 
 const DEV_SERVER_PORT = "5000"
 
-const DB_HOST = "localhost"
-const DB_NAME = "fiscaluno_institutions"
-const DB_USER = "root"
-const DB_PASS = "root"
+const DB_HOST="fiscaluno_db"
+const DB_NAME="fiscaluno"
+const DB_USER="fiscaluno"
+const DB_PASS="fiscaluno"
+const DB_PORT="5432"
