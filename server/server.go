@@ -1,6 +1,7 @@
 package server
 
 import(
+    "os"
     "log"
     "net/http"
     "github.com/gorilla/handlers"
@@ -15,7 +16,12 @@ func Start() {
     origins := handlers.AllowedOrigins([]string{"*"})
     methods := handlers.AllowedMethods([]string{"GET", "POST", "PUT", "DELETE"})
 
-    if err := http.ListenAndServe(":" + config.DEV_SERVER_PORT, handlers.CORS(origins, methods)(router));
+    port := os.Getenv("PORT")
+    if port == "" {
+        port = config.DEV_SERVER_PORT
+    }
+
+    if err := http.ListenAndServe(":" + port, handlers.CORS(origins, methods)(router));
 
     err != nil {
         log.Fatal(err)
