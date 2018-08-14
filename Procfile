@@ -1,1 +1,1 @@
-web: hyoga
+web: institutions-microservice

@@ -1,7 +1,7 @@
 package institution
 
 import (
-	models "github.com/fiscaluno/hyoga/models"
+	models "github.com/fiscaluno/institutions-microservice/models"
 	"github.com/mitchellh/mapstructure"
 )
 

@@ -4,9 +4,9 @@ import(
     "log"
     "net/http"
     "github.com/gorilla/handlers"
-    "github.com/fiscaluno/hyoga/config"
-    "github.com/fiscaluno/hyoga/server/routes"
-    _ "github.com/fiscaluno/hyoga/database/migrations"
+    "github.com/fiscaluno/institutions-microservice/config"
+    "github.com/fiscaluno/institutions-microservice/server/routes"
+    _ "github.com/fiscaluno/institutions-microservice/database/migrations"
 )
 
 func Start() {

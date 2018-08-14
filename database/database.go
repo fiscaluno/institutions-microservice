@@ -2,8 +2,8 @@ package database
 
 import (
 	"fmt"
-	"github.com/fiscaluno/hyoga/config"
-	log "github.com/fiscaluno/hyoga/fiscalog"
+	"github.com/fiscaluno/institutions-microservice/config"
+	log "github.com/fiscaluno/institutions-microservice/fiscalog"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 )

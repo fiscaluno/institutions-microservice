@@ -2,7 +2,7 @@ package routes
 
 import(
     "github.com/gorilla/mux"
-    "github.com/fiscaluno/hyoga/controllers"
+    "github.com/fiscaluno/institutions-microservice/controllers"
     // "github.com/fiscaluno/pandorabox/mu"
 )
 

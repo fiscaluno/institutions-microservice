@@ -1,7 +1,7 @@
 package models
 
 import(
-    "github.com/fiscaluno/hyoga/database"
+    "github.com/fiscaluno/institutions-microservice/database"
     _ "github.com/jinzhu/gorm"
 )
 

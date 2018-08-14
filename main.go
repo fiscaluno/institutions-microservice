@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/fiscaluno/hyoga/server"
+	"github.com/fiscaluno/institutions-microservice/server"
 )
 
 func main() {

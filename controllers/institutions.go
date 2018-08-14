@@ -4,7 +4,7 @@ import(
     "strconv"
     "net/http"
     "encoding/json"
-    "github.com/fiscaluno/hyoga/models/institution"
+    "github.com/fiscaluno/institutions-microservice/models/institution"
     "github.com/gorilla/mux"
 )
 

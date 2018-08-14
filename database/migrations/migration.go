@@ -2,8 +2,8 @@ package migrations
 
 import (
 	"fmt"
-	"github.com/fiscaluno/hyoga/database"
-	log "github.com/fiscaluno/hyoga/fiscalog"
+	"github.com/fiscaluno/institutions-microservice/database"
+	log "github.com/fiscaluno/institutions-microservice/fiscalog"
 	"reflect"
 	"regexp"
 )

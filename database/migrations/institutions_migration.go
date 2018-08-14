@@ -1,7 +1,7 @@
 package migrations
 
 import (
-	model "github.com/fiscaluno/hyoga/models"
+	model "github.com/fiscaluno/institutions-microservice/models"
 )
 
 var Institution = model.Institution{}
