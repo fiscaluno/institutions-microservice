@@ -1,0 +1,15 @@
+language: go
+
+go:
+    - "1.x"
+    - master
+
+git:
+    depth: 1
+
+install: true
+
+notifications:
+    email: false
+
+
